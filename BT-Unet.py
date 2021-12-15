@@ -603,7 +603,7 @@ for train_index, test_index in skf.split(X_train[:,0,0,0], Y_train[:,0,0,0]):
     model.compile(
         loss=bce_dice_loss,
         optimizer=Adam(),
-        metrics=['accuracy', Precision(), MeanIoU(num_classes=2), Recall(), dice_coeff, MeanAbsoluteError(), my_haud_dist]
+        metrics=['accuracy', Precision(), MeanIoU(num_classes=2), Recall(), dice_coeff, MeanAbsoluteError(), my_haud_dist, my_iou_metric]
        )
 
     callbacks = [
