@@ -10,7 +10,7 @@ The code for BT-Unet offers following functionalties:
 - Evaluation of the BT-UNet framework with standard metrics.
 - Output visualization.
 
-A jupyternotebook is also included highlighting the execution of the code
+A jupyternotebook is also included highlighting the execution of the code with and without the pre-training with Barlow Twins.
 
 ## Citation
 ```
