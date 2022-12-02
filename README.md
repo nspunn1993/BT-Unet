@@ -14,10 +14,12 @@ A jupyternotebook is also included highlighting the execution of the code with a
 
 ## Citation
 ```
-@article{punn2021btunet,
+@article{punn2022bt,
   title={BT-Unet: A self-supervised learning framework for biomedical image segmentation using Barlow Twins with U-Net models},
   author={Punn, Narinder Singh and Agarwal, Sonali},
-  journal={arXiv preprint arXiv:2112.03916},
-  year={2021}
+  journal={Machine Learning},
+  pages={1--16},
+  year={2022},
+  publisher={Springer}
 }
 ```
